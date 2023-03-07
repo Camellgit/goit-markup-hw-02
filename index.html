@@ -4,31 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HW 1</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>hw1</title>
   </head>
   <body>
     <header>
       <nav>
-        <a class="link" href="./index.html">WebStudio</a>
-        <ul>
-          <li href="#"><a>Studio</a></li>
+        <a class="log" href="./index.html">WebStudio</a>
+        <ul class="header-navegation">
+          <li><a href="./index.html" class="link-active">Studio</a></li>
           <li>
-            <a class="link" href="./goit-markup-hw-02/css/portfolio.html"
-              >Portafolio</a
-            >
+            <a href="./portfolio.html">Portafolio</a>
           </li>
-          <li href="#"><a>Contacts</a></li>
+          <li><a href="#">Contacts</a></li>
         </ul>
-        <ul class="nav_contact">
-          <li><a href="mailto:Info@devstudio.com">Info@devstudio.com</a></li>
-          <li><a href="tel:+38 096 111 111 111">38096 111 111 111</a></li>
+        <ul class="header-contact-section">
+          <li>
+            <a href="mailto:Info@devstudio.com">Info@devstudio.com</a>
+          </li>
+          <li>
+            <a href="tel:+38 096 111 111 111">38096 111 111 111</a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
       <section class="introduction">
         <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-        <button type="button">Request our Services</button>
+        <button type="button" class="request-services">
+          Request our Services
+        </button>
       </section>
 
       <section>
@@ -36,28 +53,28 @@
         <ul>
           <li>
             <h3>Attention to details</h3>
-            <p>
+            <p class="text-benefits">
               We go into all the details and processes of your business to
               develop a customized solution.
             </p>
           </li>
           <li>
             <h3>Puntuality</h3>
-            <p>
+            <p class="text-benefits">
               With us, you can feel safe and secure. An important principle of
               the company: respect your time and respect the agreed deadlines.
             </p>
           </li>
           <li>
             <h3>Planning</h3>
-            <p>
+            <p class="text-benefits">
               You will be able to observe and participate in every phase of
               solution development and implementation.
             </p>
           </li>
           <li>
             <h3>Modern Technologies</h3>
-            <p>
+            <p class="text-benefits">
               We use innovative tools to solve assigned tasks. It's time to
               simplify work processes.
             </p>
@@ -88,7 +105,7 @@
               width="300px"
             />
             <h3>Andres Cubo</h3>
-            <p>Diseñador de Productos</p>
+            <p class="text-benefits">Diseñador de Productos</p>
           </li>
           <li>
             <img
@@ -97,7 +114,7 @@
               width="300"
             />
             <h3>Carla Palacios</h3>
-            <p>Desarrolladora Frontend</p>
+            <p class="text-benefits">Desarrolladora Frontend</p>
           </li>
           <li>
             <img
@@ -106,7 +123,7 @@
               width="300"
             />
             <h3>Mario Dorado</h3>
-            <p>Marketing</p>
+            <p class="text-benefits">Marketing</p>
           </li>
           <li>
             <img
@@ -115,15 +132,15 @@
               width="300"
             />
             <h3>Pablo Mijangos</h3>
-            <p>Diseñador IU</p>
+            <p class="text-benefits">Diseñador IU</p>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <a>WebStudio</a>
+      <a class="log" href="./index.html">WebStudio</a>
       <address>
-        <ul class="nav_contact">
+        <ul class="header-contact-section">
           <li>
             <a
               href="https://goo.gl/maps/UZ35Rtt92iHCTSNJ8"
@@ -132,8 +149,14 @@
               >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
             >
           </li>
-          <li><a href="mailto:Info@devstudio.com">Info@devstudio.com</a></li>
-          <li><a href="tel:+38 096 111 111 111">38096 111 111 111</a></li>
+          <li>
+            <a href="mailto:Info@devstudio.com" class="mail"
+              >Info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+38 096 111 111 111" class="tel">38096 111 111 111</a>
+          </li>
         </ul>
       </address>
     </footer>

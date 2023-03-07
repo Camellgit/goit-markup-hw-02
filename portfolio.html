@@ -4,45 +4,55 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href=".css/styles.css" />
+    <link rel="stylesheet" href="./css/portfolio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <title>hw2</title>
   </head>
   <body>
     <header>
       <nav>
-        <a class="link" href="../../index.html">WebStudio</a>
-        <ul>
-          <li><a class="link" href="./index.html">Studio</a></li>
+        <a class="log" href="./index.html">WebStudio</a>
+        <ul class="header-navegation">
+          <li><a href="./index.html">Studio</a></li>
           <li>
-            <a class="link" href="./goit-markup-hw-02/css/portfolio.html"
-              >Portfolio</a
-            >
+            <a href="./portfolio.html">Portfolio</a>
           </li>
-          <li><a class="link" href="#">Contacts</a></li>
+          <li><a href="#">Contacts</a></li>
         </ul>
-        <ul class="nav_contact">
+        <ul class="header-contact-section">
           <li><a href="mailto:Info@devstudio.com">Info@devstudio.com</a></li>
           <li><a href="tel:+38 096 111 111 111">38096 111 111 111</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="filters">
-        <ul>
+      <section>
+        <ul class="filters">
           <li>
-            <button type="button">All</button>
+            <button type="button" class="filter-item">All</button>
           </li>
           <li>
-            <button type="button">Websites</button>
+            <button type="button" class="filter-item">Websites</button>
           </li>
           <li>
-            <button type="button">Aplications</button>
+            <button type="button" class="filter-item">Aplications</button>
           </li>
           <li>
-            <button type="button">Dessign</button>
+            <button type="button" class="filter-item">Dessign</button>
           </li>
           <li>
-            <button type="button">Marketing</button>
+            <button type="button" class="filter-item">Marketing</button>
           </li>
         </ul>
       </section>
@@ -51,50 +61,67 @@
           <li>
             <img src="./images/tecnoduck.jpg" alt="Tecnoduck" width="370" />
             <h2>Tecnoduck</h2>
-            <p>Website</p>
+            <p class="portfolio">Website</p>
           </li>
           <li>
             <img src="./images/poster.jpg" alt="Tecnoduck" width="370" />
             <h2>Poster de Nueva Orleans vs Estrellas Doradas</h2>
-            <p>Diseño</p>
+            <p class="portfolio">Diseño</p>
           </li>
           <li>
             <img src="./images/seafood.jpg" alt="Tecnoduck" width="370" />
             <h2>Restaurante SeaFood</h2>
-            <p>Aplications</p>
+            <p class="portfolio">Aplications</p>
           </li>
           <li>
             <img src="./images/prime.jpg" alt="Tecnoduck" width="370" />
             <h2>Project Prime</h2>
-            <p>Marketing</p>
+            <p class="portfolio">Marketing</p>
           </li>
           <li>
             <img src="./images/box.jpg" alt="Tecnoduck" width="370" />
             <h2>Project Boxes</h2>
-            <p>Aplications</p>
+            <p class="portfolio">Aplications</p>
           </li>
           <li>
             <img src="./images/website.jpg" alt="Tecnoduck" width="370" />
             <h2>Inspiration Unlimits</h2>
-            <p>Website</p>
+            <p class="portfolio">Website</p>
           </li>
           <li>
             <img src="./images/editionlimit.jpg" alt="Tecnoduck" width="370" />
             <h2>Limited Edition</h2>
-            <p>Disign</p>
+            <p class="portfolio">Disign</p>
           </li>
           <li>
             <img src="./images/lab.jpg" alt="Tecnoduck" width="370" />
             <h2>Project LAB</h2>
-            <p>Marketing</p>
+            <p class="portfolio">Marketing</p>
           </li>
           <li>
             <img src="./images/bussisnes.jpg" alt="Tecnoduck" width="370" />
             <h2>Growing Bussisnes</h2>
-            <p>Aplications</p>
+            <p class="portfolio">Aplications</p>
           </li>
         </ul>
       </section>
     </main>
+    <footer>
+      <a class="log">WebStudio</a>
+      <address>
+        <ul class="header-contact-section">
+          <li>
+            <a
+              href="https://goo.gl/maps/UZ35Rtt92iHCTSNJ8"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
+            >
+          </li>
+          <li><a href="mailto:Info@devstudio.com">Info@devstudio.com</a></li>
+          <li><a href="tel:+38 096 111 111 111">38096 111 111 111</a></li>
+        </ul>
+      </address>
+    </footer>
   </body>
 </html>
